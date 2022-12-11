@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone</title>
+    <style>
+        nav{
+            display: flex;
+            padding: 5px;
+            gap: 40px;
+            justify-content: flex-end;
+            margin-top: -65px;
+
+            
+            
+        }
+        header{
+            background-color: white;
+            display: flex;
+            gap: 40px;
+            padding: 10px;
+            height: 60px;
+        }
+        header>a{
+            margin-top: 10px;
+            font-size: large;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        .icons{
+            display: flex;
+            gap: 40%;
+            align-items: center;
+        }
+        button{
+            width: 120px;
+            height: 45px;
+            font-weight: bold;
+            border-radius: 20px;
+            font-size: medium;
+            padding: 8px;
+        }
+        #btn1{
+            background-color: pink;
+        }
+        #btn2{
+            background-color: rgb(252, 252, 152);
+        }
+        #btn3{
+            background-color: rgba(27, 186, 27, 0.6);
+            color: white;
+        }
+        main{
+            position: absolute;
+            right: 50%;
+            top: 25%;
+            transform: translate(50%);
+            font-size: larger;
+            width: 300px;
+            line-height: 35px;
+            
+            
+        }
+        p{
+            color: red;
+            
+        }
+        input{
+            border-radius: 20px;
+            height: 30px;
+            width: 400px;
+            
+        }
+    </style>
+</head>
+<body style="background-color: rgba(67, 66, 66, 0.957);">
+    <header>
+        <img style="width: 45px;" src="./img/w3s.png" alt="Logo W3S">
+        <a class="btn" href="#">Tutorials</a>
+        <a class="btn" href="#">References</a>
+        <a class="btn" href="#">Exercises</a>
+        <a class="btn" href="#">Videos</a>
+    </header>
+    <nav>
+    <div class="icons">
+        <img src="./img/world.png" alt="" width="20px" height="20">
+        <img src="./img/lupa.png" width="20px" height="20px" alt="">
+    </div>
+        <button id="btn1">Get Certified</button>
+        <button id="btn2">Free Website</button>
+        <button id="btn3">Log In</button>
+    </nav>
+    <main>
+        <h1 style="color: white;">Learn to Code</h1>
+        <p>With the world's largest web developer site.</p>
+        <input type="text" placeholder="Search tutorials, e.g. HTML" style="margin-left: -25%;">
+        <a href="abc.com" style="color: white;" >Not sure where to begin?</a>
+    </main>
+
+</body>
+</html>
