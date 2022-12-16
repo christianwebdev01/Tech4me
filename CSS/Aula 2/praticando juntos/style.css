@@ -1,0 +1,77 @@
+.Vermelho{
+ background-color: red;
+}
+.Laranja{
+ background-color: orange;
+}
+.Amarelo{
+ background-color: yellow;
+}
+.Verde{
+    background-color: green;
+}
+.Azul-claro{
+ background-color: aqua;
+}
+.Azul-escuro{
+ background-color: blue;
+}
+.Violeta{
+    background-color: purple;
+}
+th{
+    width: 400px;
+}
+
+/* div p{
+    background-color: brown;
+}
+div span{
+    color:blue
+} */
+/* 
+div > p {
+    color: blue;
+}
+div > span{
+    color: brown;
+} */
+
+h1 + p {
+    background-color: blue!important;
+}
+h1 ~ p {
+    background-color: brown;
+}
+
+a:hover{
+    padding: 10px;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: blue;
+}
+a:active{
+    color: aqua;
+}
+
+p:empty{
+    background-color: yellow;
+}
+
+p::first-letter{
+    font-size: 300%;
+    background-color: blue;
+}
+
+span::before{
+    content: '(';
+}
+span::after{
+    content: ')';
+}
+::selection{
+    background: red;
+}
