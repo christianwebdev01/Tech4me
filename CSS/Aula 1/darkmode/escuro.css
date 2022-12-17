@@ -1,0 +1,46 @@
+body{
+    background-color: #212529;
+}
+main img{
+    width: 400px;
+    margin-left: 100px;
+    padding: 5px 1px 10px 1px;
+}
+span{
+    color: rgb(14, 218, 123);
+    font-weight: bolder;
+}
+#icon{
+    width: 22px;
+    float: right;
+    
+}
+header > h1{
+    display: inline;
+    color: #899095;
+}
+main > h2{
+    color: #899095;
+    
+}
+
+main > div{
+    background-color: rgb(12, 12, 12);
+
+}
+ul > li::marker{
+    content:'\2600';
+    color: #3fa172;
+}
+ul > li{
+    margin: 7px 1px;
+    color: #899095;
+}
+ol > li{
+    line-height: 27px;
+    margin-bottom: 16px;
+    color: #899095;
+}
+#secondPhoto > img{
+    height: 250px;
+}
