@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio Fidget Spinner</title>
+    <style>
+        img{
+            width: 6rem;
+            height: 6rem;
+        }
+        div{
+            width: 6rem;
+            height: 6rem;
+        }
+        .fidget:hover{
+            animation-name: fidget-spinner;
+            animation-duration: 1s;
+            animation-iteration-count: 4;
+            animation-timing-function: linear;
+            cursor: pointer;
+        }
+
+        @keyframes fidget-spinner {
+            from {
+                transform: rotate(0);
+            } 
+            to {
+                transform: rotate(1turn);
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <div class="fidget">
+        <img src="./img/fidget.png" alt="Fidget spinner" srcset="">
+    </div>
+</body>
+</html>
