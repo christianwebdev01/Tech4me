@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comidas preferidas</title>
+    <style>
+        body{
+            display: flex;
+            justify-content:space-evenly;
+            background-color: grey;
+            
+        }
+        .comidas{
+            background-color: rgb(187, 184, 184);
+            flex-grow: 2;
+            text-align: end;
+            line-height: 32PX;
+            
+        }
+        .enquetes{
+            flex-grow: 2;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            
+        }
+        .nota1{
+            margin-left: 10px;
+            height: 25px;
+            width: 20px;
+            background-color: BLUE;
+        }
+        .nota2{
+            margin-left: 10px;
+            height: 25px;
+            width: 20px;
+            background-color: BLUE;
+        }
+        .nota1:hover{
+            animation-name: enquete;
+            animation-duration: 5s;
+            animation-fill-mode: forwards;
+            animation-direction:normal;
+            cursor: pointer;
+        }
+        .nota2:hover{
+            animation-name: enquete;
+            animation-duration: 5s;
+            animation-fill-mode: forwards;
+            animation-direction:normal;
+            cursor: pointer;
+        }
+        .main{
+            display: flex;
+            align-items: center;
+        }
+        @keyframes enquete {
+            0%{
+                width: 10px;
+            }
+            100%{
+                width: 60px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="comidas">
+        <h3>STROGONOFE</h3>
+        <h3>LASANHA</h3>
+        <h3>CHURRASCO</h3>
+        <h3>EMPADÃO</h3>
+        <h3>JILÓ</h3>
+    </div>
+    <div class="enquetes">
+        <div class="main">
+            <h3>PONTOS
+            </h3>
+            <div class="nota1"></div>
+        </div>
+        <div class="main">
+            <h3>PONTOS
+            </h3>
+            <div class="nota2"></div>
+        </div>
+        <div class="main">
+            <h3>PONTOS
+            </h3>
+            <div class="nota3"></div>
+        </div>
+        <div class="main">
+            <h3>PONTOS
+            </h3>
+            <div class="nota4"></div>
+        </div>
+        <div class="main">
+            <h3>PONTOS
+            </h3>
+            <div class="nota5"></div>
+        </div>
+        
+        
+        <div>PONTOS</div>
+    </div>
+   
+</body>
+</html>
