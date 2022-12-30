@@ -1,0 +1,100 @@
+.comidas{
+    display: flex;
+    align-items: center;
+}
+.notas1{
+    width: 20px;
+    height: 25px;
+    cursor: pointer;
+    background-color: aqua;
+}
+.notas2{
+    width: 20px;
+    height: 25px;
+    cursor: pointer;
+    background-color: green;
+}
+.notas3{
+    width: 20px;
+    height: 25px;
+    cursor: pointer;
+    background-color: red;
+}
+.notas4{
+    width: 20px;
+    height: 25px;
+    cursor: pointer;
+    background-color: violet;
+}
+.notas5{
+    width: 20px;
+    height: 25px;
+    cursor: pointer;
+    background-color: yellow;
+}
+
+.notas1:hover{
+    animation-name: enquete1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+.notas2:hover{
+    animation-name: enquete2;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+.notas3:hover{
+    animation-name: enquete3;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+.notas4:hover{
+    animation-name: enquete4;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+.notas5:hover{
+    animation-name: enquete5;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes enquete1 {
+    0%{
+        width: 20px;
+    }
+    100%{
+        width: 300px;
+    }
+}
+@keyframes enquete2 {
+    0%{
+        width: 20px;
+    }
+    100%{
+        width: 250px;
+    }
+}
+@keyframes enquete3 {
+    0%{
+        width: 20px;
+    }
+    100%{
+        width: 350px;
+    }
+}
+@keyframes enquete4 {
+    0%{
+        width: 20px;
+    }
+    100%{
+        width: 280px;
+    }
+}
+@keyframes enquete5 {
+    0%{
+        width: 20px;
+    }
+    100%{
+        width: 80px;
+    }
+}
